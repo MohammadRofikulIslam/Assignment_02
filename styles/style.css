@@ -9,6 +9,9 @@ main {
   max-width: 1170px;
   margin: 0 auto;
 }
+section {
+  margin: 50px 0;
+}
 nav {
   height: 80px;
   width: 100%;
@@ -71,6 +74,7 @@ nav {
   align-items: center;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 100px;
 }
 .banner-container {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
@@ -134,4 +138,43 @@ nav {
 .banner-text h2 {
   font-size: 50px;
   font-weight: 800;
+}
+/* Popular Tours Styles */
+.tour-container {
+  display: flex;
+  justify-content: space-between;
+}
+.tour-text-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.tour-container .tour-text {
+  width: 540px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.tour-text h3 {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0 0;
+}
+.tour-text p {
+  line-height: 25px;
+}
+.tour-text input {
+  height: 50px;
+  width: 155px;
+  background: #ff5400;
+  color: white;
+  border-radius: 8px;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+}
+.tour-container .tour-img {
+  width: 540px;
+  height: 550px;
 }
