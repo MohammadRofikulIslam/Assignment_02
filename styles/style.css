@@ -128,7 +128,6 @@ nav {
 .banner-container {
   display: flex;
   flex-direction: column;
-
 }
 .banner-text {
   margin-bottom: 20px;
@@ -256,4 +255,32 @@ nav {
   color: white;
   font-size: 25px;
   font-weight: 800;
+}
+.hotels {
+  background: rgba(251, 181, 99, 0.05);
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  border-radius: 16px;
+  width: 50%;
+  padding: 20px;
+}
+.service {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  border-radius: 16px;
+  width: 50%;
+  padding: 20px;
+}
+.guarantee {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  border-radius: 16px;
+  width: 50%;
+  padding: 20px;
+  margin: 20px auto;
+}
+.why-us-container {
+  display: flex;
+  flex-basis: content;
+  justify-content: center;
+  gap: 20px;
 }

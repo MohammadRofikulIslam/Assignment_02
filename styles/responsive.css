@@ -54,4 +54,15 @@
   .destination-images {
     grid-template-areas: "a" "b" "c" "d" "e" "f" "g";
   }
+  .why-us-container {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .hotels,
+  .service,
+  .guarantee {
+    width: 90%;
+    padding: 15px;
+    margin: 0 auto;
+  }
 }
