@@ -3,3 +3,57 @@
 body {
   font-family: "Mulish", sans-serif;
 }
+
+header,
+main {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+nav {
+  height: 80px;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid black; */
+  width: 50%;
+}
+.logo h1 {
+  font-size: 36px;
+  font-weight: 800;
+}
+.logo h1 span {
+  color: #ff5400;
+}
+.nav-items {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+.nav-items a {
+  text-decoration: none;
+  color: black;
+}
+.nav-items .active {
+  color: #ff5400;
+  font-weight: 700;
+}
+.nav-items a:hover {
+  color: #ff5400;
+  font-weight: 700;
+}
+.checkbtn {
+  font-size: 25px;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}

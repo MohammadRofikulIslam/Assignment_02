@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+  .checkbtn {
+    display: block;
+  }
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 50vh;
+    left: -100%;
+  }
+  #check:checked .nav-items {
+    left: 0;
+  }
+
+  body {
+    margin: 0 20px;
+  }
+  .logo img {
+    width: 40px;
+  }
+  .logo h1 {
+    font-size: 20px;
+  }
+}
