@@ -25,4 +25,24 @@
   .logo h1 {
     font-size: 20px;
   }
+  /* Banner */
+  .banner {
+    height: 500px;
+  }
+  .banner-items {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .banner-items span {
+    top: 40px;
+    left: -40px;
+  }
+  .banner-container {
+  }
+  .banner-text {
+    margin: 0 20px;
+  }
+  .banner-text h2 {
+    font-size: 30px;
+  }
 }
