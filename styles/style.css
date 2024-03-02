@@ -9,9 +9,7 @@ main {
   max-width: 1170px;
   margin: 0 auto;
 }
-section {
-  margin: 50px 0;
-}
+
 nav {
   height: 80px;
   width: 100%;
@@ -130,7 +128,7 @@ nav {
 .banner-container {
   display: flex;
   flex-direction: column;
-  gap: ;
+
 }
 .banner-text {
   margin-bottom: 20px;
@@ -143,6 +141,7 @@ nav {
 .tour-container {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 .tour-text-ul {
   display: flex;
@@ -150,8 +149,6 @@ nav {
   gap: 15px;
 }
 .tour-container .tour-text {
-  width: 540px;
-  height: 550px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -159,7 +156,7 @@ nav {
 .tour-text h3 {
   font-size: 30px;
   font-weight: 800;
-  margin: 0 0;
+  margin: 0;
 }
 .tour-text p {
   line-height: 25px;
@@ -174,7 +171,89 @@ nav {
   border: none;
   cursor: pointer;
 }
-.tour-container .tour-img {
-  width: 540px;
-  height: 550px;
+
+/* Choose Destination Styles  */
+.destination-container {
+  margin: 100px 0;
+}
+.section-text-content {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-title {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+}
+.section-text {
+  margin-bottom: 50px;
+}
+.grid-item {
+  height: 300px;
+  border-radius: 16px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transform: scale(0.96);
+}
+.grid-item-1 {
+  background: url("../Images/1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-area: a;
+}
+.grid-item-2 {
+  background: url("../Images/2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-area: b;
+}
+.grid-item-3 {
+  background: url("../Images/3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-area: c;
+}
+.grid-item-4 {
+  background: url("../Images/4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-area: d;
+}
+.grid-item-5 {
+  background: url("../Images/5.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-area: e;
+}
+.grid-item-6 {
+  background: url("../Images/6.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-area: f;
+}
+.grid-item-7 {
+  background: url("../Images/7.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-area: g;
+}
+.destination-images {
+  display: grid;
+  grid-template-areas:
+    "a a a a a a b b b b b b"
+    "c c c c d d d d d e e e"
+    "f f f f f g g g g g g g";
+  gap: 20px;
+}
+.grid-text {
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
 }
