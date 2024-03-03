@@ -256,6 +256,7 @@ nav {
   font-size: 25px;
   font-weight: 800;
 }
+/* Why Choose Us  */
 .hotels {
   background: rgba(251, 181, 99, 0.05);
   border: 1px solid rgba(251, 181, 99, 0.2);
@@ -283,4 +284,76 @@ nav {
   flex-basis: content;
   justify-content: center;
   gap: 20px;
+}
+.guarantee h4,
+.service h4,
+.hotels h4 {
+  font-size: 20px;
+  font-weight: 800;
+}
+/* News Letter  */
+.newsletter-discount {
+  background: #ff5400;
+  padding: 5px 50px;
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 16px;
+  color: white;
+  transform: rotate(-40deg);
+}
+.newsletter-discount h4 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 0px;
+}
+
+.newsletter-form {
+  border: 2px solid #ff5400;
+  border-radius: 16px;
+  padding: 30px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.newsletter-form h4 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0;
+}
+.newsletter-form input {
+  display: block;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(235, 233, 233);
+  padding: 0 10px;
+}
+#subscribe-btn {
+  background: #ff5400;
+  color: white;
+
+  font-weight: 800;
+}
+.newsletter-img {
+  background-image: url("../Images/8.png");
+  width: 60%;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  padding-bottom: 70px;
+}
+.newsletter-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+hr {
+  margin: 10px 0;
 }
