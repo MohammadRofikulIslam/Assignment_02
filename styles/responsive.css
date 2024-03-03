@@ -81,7 +81,19 @@
   .newsletter-img {
     width: 100%;
   }
-  footer{
+  .user-review {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  .user-1,
+  .user-2,
+  .user-3 {
+    width: 85%;
+    margin: 0 auto;
+  }
+  footer {
     padding: 20px;
   }
 }
