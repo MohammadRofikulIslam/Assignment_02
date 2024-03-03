@@ -354,6 +354,54 @@ nav {
   justify-content: space-between;
   margin: 100px 0;
 }
-hr {
+.newsletter-form > hr {
   margin: 10px 0;
+}
+footer {
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer-container {
+  max-width: 1170px;
+  height: 400px;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.footer-logo img {
+  width: 40px;
+}
+.footer-logo h1 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.footer-logo h1 span {
+  color: #ff5400;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 10px 0;
+}
+.social-icon {
+  width: 40px;
+}
+
+footer {
+  padding: 0;
+  margin: 0;
+}
+.footer-container > hr {
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
 }
